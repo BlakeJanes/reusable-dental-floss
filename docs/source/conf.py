@@ -45,7 +45,7 @@ extensions = [
 templates_path = ['_templates']
 
 # The suffix(es) of source filenames.
-# You can specify multiple suffix as a list of string:
+# You can specify multiple suffixes as a list of strings:
 #
 # source_suffix = ['.rst', '.md']
 source_suffix = '.rst'
@@ -93,15 +93,15 @@ html_theme_options = {
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
+# relative to this directory. They are copied after the built in static files,
+# so a file named "default.css" will overwrite the built in "default.css".
 html_static_path = ['_static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
 # The default sidebars (for documents that don't match any pattern) are
-# defined by theme itself.  Builtin themes are using these templates by
+# defined by the theme itself.  Built in themes use the following templates by
 # default: ``['localtoc.html', 'relations.html', 'sourcelink.html',
 # 'searchbox.html']``.
 #
